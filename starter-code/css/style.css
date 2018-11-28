@@ -1,3 +1,33 @@
+h1 {
+  position: relative;
+  left: 600px;
+  top: 10px;
+  padding: 20px;
+  width: 120px;
+}
+
+.prod-wrapper {
+  margin: 0 auto;
+  padding-top: 5px;
+  width: 1020px;
+}
+
+.col {
+  float: left;
+  height: 25px;
+  padding-top: 10px;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
 input {
   border: solid 1px black;
 }
@@ -38,4 +68,5 @@ input {
 
 .quantity {
   margin: 0 5px;
+  width: 150px;
 }
