@@ -1,35 +1,49 @@
-h1 {
-  position: relative;
-  left: 600px;
-  top: 10px;
-  padding: 20px;
-  width: 120px;
+* {
+  box-sizing: border-box;
 }
 
-.prod-wrapper {
+.container {
   margin: 0 auto;
-  padding-top: 5px;
-  width: 1020px;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.row {
+  clear: both;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
 }
 
 .col {
   float: left;
-  height: 25px;
-  padding-top: 10px;
+  padding: 0 5px;
   width: 20%;
 }
 
-footer {
-  clear: both;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
+.col-3 {
+  width: 60%;
 }
 
+.col-offset-2 {
+  margin-left: 40%;
+}
 
+header,
+footer {
+  padding: 15px 0;
+}
 
 input {
   border: solid 1px black;
+  padding: 2px 5px;
+  width: 100%;
+}
+
+.quantity {
+  margin: 0 5px;
+  text-align: center;
+  width: 80px;
 }
 
 .btn {
@@ -54,19 +68,29 @@ input {
   border-radius: 4px;
 }
 
+.btn:hover {
+  background-color: #CCC;
+  border-color: #CCC;
+}
+
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover {
+  background-color: #5ce95c;
+  border-color: #5ce95c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #CF000F;
+  border-color: #CF000F;
 }
 
-.quantity {
-  margin: 0 5px;
-  width: 150px;
+.btn-delete:hover {
+  background-color: #FF000F;
+  border-color: #FF000F;
 }
