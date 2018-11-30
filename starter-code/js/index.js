@@ -74,7 +74,7 @@ function createNewItem(){
     productQtyInput.className = 'quantity';
     productQtyInput.type = 'text';
     productQtyInput.value = 0;
-    productQtyInput.keyup('keyup', () => {
+    productQtyInput.addEventListener('keyup', () => {
       getTotalPrice();
     });
 
